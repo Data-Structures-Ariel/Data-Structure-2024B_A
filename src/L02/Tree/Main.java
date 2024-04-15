@@ -26,7 +26,7 @@ public class Main {
         // ------------------ deg-4 ---------------------
         root.getRight().getRight().getRight().setRight(new BinNode<>(70));
 
-    inOrder(root);
+        inOrder(root);
         insert(root, 9);
         root = add(root, 8);
     }
@@ -42,15 +42,15 @@ public class Main {
     static public void preOrder(BinNode<Integer> root) {
         if (root != null) {
             System.out.println(root.getValue());
-            inOrder(root.getLeft());
-            inOrder(root.getRight());
+            preOrder(root.getLeft());
+            preOrder(root.getRight());
         }
     }
 
     static public void postOrder(BinNode<Integer> root) {
         if (root != null) {
-            inOrder(root.getLeft());
-            inOrder(root.getRight());
+            postOrder(root.getLeft());
+            postOrder(root.getRight());
             System.out.println(root.getValue());
         }
     }
