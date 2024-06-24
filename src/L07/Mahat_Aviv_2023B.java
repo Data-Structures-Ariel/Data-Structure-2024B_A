@@ -60,7 +60,7 @@ public class Mahat_Aviv_2023B {
                             cntNG3++;
                     }
                     System.out.println(cntG1);
-                    System.out.println(cntG3);
+//                    System.out.println(cntG3);
                     break;
                 case 7:
                     BinNode<Integer> root = new BinNode<>(8,
