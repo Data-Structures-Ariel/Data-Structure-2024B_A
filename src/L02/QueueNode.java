@@ -1,6 +1,6 @@
 package L02;
 
-import L01.Node;
+import Nodes.Node;
 
 import java.util.NoSuchElementException;
 

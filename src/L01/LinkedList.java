@@ -1,6 +1,8 @@
 package L01;
 
 
+import Nodes.Node;
+
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
